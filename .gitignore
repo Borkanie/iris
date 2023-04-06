@@ -1,4 +1,14 @@
-ExcelSheetColumnLetterToColumnNumber/bin
-ExcelSheetColumnLetterToColumnNumber/obj
-ExcelSheet/obj
-ExcelSheet/bin
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+obj/[Rr]elease/
+obj/[Rr]eleases/
+obj/x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2015 cache/options directory
+.vs/
