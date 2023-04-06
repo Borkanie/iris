@@ -58,5 +58,44 @@ namespace ExcelSheetTest
             // Assert
             Assert.Equal(exception!=null, shouldThrowException);
         }
+
+
+
+        [Theory]
+        [InlineData("A", 1)]
+        [InlineData("B", 2)]
+        [InlineData("C", 3)]
+        [InlineData("D", 4)]
+        [InlineData("E", 5)]
+        [InlineData("X", 24)]
+        [InlineData("Y", 25)]
+        [InlineData("Z", 26)]
+        public void TestNumberToLetter_ValueIsPredefined_ShouleBeEqual(string letter, int number)
+        {
+            // Arrange
+
+            // Act
+            var column = Program.GetExcelLetter(number);
+
+            // Assert
+            Assert.Equal(letter, column);
+        }
+
+        [Theory]
+        [InlineData("AA", 27)]
+        [InlineData("BBC", 1407)]
+        [InlineData("YZ", 676)]
+        [InlineData("ZZ", 702)]
+        [InlineData("AAC", 705)]
+        public void TestNumberToLetters_ValueIsPredefined_ShouleBeEqual(string letter, int number)
+        {
+            // Arrange
+
+            // Act
+            var column = Program.GetExcelLetter(number);
+
+            // Assert
+            Assert.Equal(letter, column);
+        }
     }
 }

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExcelSheetTest
-build_property.ProjectDir = C:\Users\bboboc\source\repos\ExcelSheetColumnLetterToColumnNumber\ExcelSheetTest\
+build_property.ProjectDir = C:\Users\bboboc\source\repos\iris\ExcelSheetTest\
