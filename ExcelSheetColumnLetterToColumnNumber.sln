@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetColumnLetterToColumnNumber", "ExcelSheetColumnLetterToColumnNumber\ExcelSheetColumnLetterToColumnNumber.csproj", "{45741FF6-D8B8-4714-9B6F-2FA9330FD6BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetTest", "ExcelSheetTest\ExcelSheetTest.csproj", "{B9F6030F-819A-4739-B0DA-CD5504F2C824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45741FF6-D8B8-4714-9B6F-2FA9330FD6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45741FF6-D8B8-4714-9B6F-2FA9330FD6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45741FF6-D8B8-4714-9B6F-2FA9330FD6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45741FF6-D8B8-4714-9B6F-2FA9330FD6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F6030F-819A-4739-B0DA-CD5504F2C824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F6030F-819A-4739-B0DA-CD5504F2C824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F6030F-819A-4739-B0DA-CD5504F2C824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F6030F-819A-4739-B0DA-CD5504F2C824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83384796-9D12-4712-9A1F-B883ADEB4DE4}
+	EndGlobalSection
+EndGlobal
